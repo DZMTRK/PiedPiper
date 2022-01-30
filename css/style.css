@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+* {
+    box-sizing: border-box;
+}  
+
+body {
+    min-width: 1219px;
+    max-width: 2011px;
+}
+
+
+/*In the section below we are setting up an appearance of the navigation menu*/
+
+header {
+    background-color: #007765;
+}
+
+div.navigation {
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+img.logo {
+    width: 184px;
+    height: 45px;
+    position: relative;
+    top: 20px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: inline-block;
+    padding: 27px 0px 28px 502px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+span.nav a{
+    text-decoration: none; /*removing underline value for links*/
+    color: #FFF; /*change the color of the links to white*/
+}
+
+
+/*In this section we are setting up an appearance of the Jumbotron block containing H1 tag*/
+
+/* Add some beauty with the background image*/
+div.jumbotron{
+    background: url('../img/image.png')  center/cover;
+    max-width: 100%;
+}
+
+div.jumbotron h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFF;
+    margin: 0;
+    padding: 160px;
+}
+
+
+/* This one section contains the HERO-block with the lovely background and white colored text on it*/
+aside {
+    background: url('../img/image\ \(1\).png')  center/cover;
+    max-width: 100%;
+    padding-top: 127px;
+    padding-bottom: 128px;
+}
+
+span.hero {
+    display: block;
+    max-width: 893px;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFF;
+}
+
+.content {
+    max-width: 1179px;
+    margin: 0 auto;
+    padding: 48px 34.5px 92px;
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    margin: 0;
+}
+
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: left;
+    margin-top: 16px;
+    color: #000;
+}
+
+span.letItbold {
+    font-weight: bold;
+}
+
+img.logo2 {
+    width: 115px;
+    height: 115px;
+    position: relative;
+    top: 16px;
+    margin-right: 48px;
+    float: left;
+}
