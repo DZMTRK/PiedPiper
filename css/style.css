@@ -145,3 +145,22 @@ img.logo2 {
     margin-right: 48px;
     float: left;
 }
+
+
+figure.fotocard {
+    width: 350px;
+    height: 283px;
+    float: left;
+    margin: 0;   
+}
+
+img.teamfoto {
+    width: 168px;
+    height: 168px;
+    margin: 0px 96px 0px 96px;
+}
+
+figcaption {
+    border: 1px solid red;
+    text-align: center;
+}
