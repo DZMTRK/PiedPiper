@@ -200,14 +200,16 @@ footer.footer {
 }
 
 p.footer {
-    font-family: Roboto;
+font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 21px;
 text-align: center;
 color: #FFFFFF;
-
+width: 540px;
+padding: 50px 0 62px 0;
+margin: 0px auto;
 }
 
 
