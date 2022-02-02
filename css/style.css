@@ -23,6 +23,7 @@
 body {
     min-width: 1219px;
     max-width: 2011px;
+    margin: 0 auto;
 }
 
 
@@ -146,12 +147,16 @@ img.logo2 {
     float: left;
 }
 
+div.team {
+    
+}
 
 figure.fotocard {
     width: 350px;
     height: 283px;
-    float: left;
-    margin: 0;   
+    display: inline-block;
+    margin: 30px 15px 0px 0px;
+    background-color: #eee;
 }
 
 img.teamfoto {
@@ -161,6 +166,48 @@ img.teamfoto {
 }
 
 figcaption {
-    border: 1px solid red;
     text-align: center;
 }
+
+#theteam{
+    background-color: #eee;
+}
+
+span.profession{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+span.name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #007765;
+}
+
+footer.footer {
+    background-color: #333;
+    box-sizing: content-box;
+    padding: 50px auto 62px;
+}
+
+p.footer {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+
